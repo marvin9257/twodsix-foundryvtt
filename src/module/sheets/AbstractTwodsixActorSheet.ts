@@ -1,7 +1,12 @@
-export abstract class AbstractTwodsixActorSheet extends ActorSheet {
+// declare class ActorSheet<T = object, O extends Actor = Actor> extends BaseEntitySheet<T, O> {
+
+
+import TwodsixActor from "../entities/TwodsixActor";
+
+export abstract class AbstractTwodsixActorSheet extends ActorSheet<any, TwodsixActor> {
 
   /** @override */
-  protected activateListeners(html:JQuery):void {
+  activateListeners(html:JQuery):void {
     super.activateListeners(html);
 
     // Everything below here is only needed if the sheet is editable
@@ -43,6 +48,10 @@ export abstract class AbstractTwodsixActorSheet extends ActorSheet {
         no: () => {
           //Nothing
         },
+        render: () => {
+          //Nothing
+        },
+        options: {}
       });
     });
     // Drag events for macros.
@@ -60,7 +69,7 @@ export abstract class AbstractTwodsixActorSheet extends ActorSheet {
     this.handleContentEditable(html);
   }
 
-  _onDragStart(event: DragEvent):void {
+  _onDragStart(event:DragEvent):void {
     const header = event.currentTarget;
     if (!header["dataset"]) {
       return;
@@ -82,7 +91,7 @@ export abstract class AbstractTwodsixActorSheet extends ActorSheet {
    * @param {Event} event   The originating click event
    * @private
    */
-  private _onItemCreate(event:{ preventDefault:() => void; currentTarget: HTMLElement }):Promise<Item> {
+  private _onItemCreate(event:JQuery.ClickEvent) {
     event.preventDefault();
     const header = event.currentTarget;
     // Get the type of item to create.
@@ -122,7 +131,7 @@ export abstract class AbstractTwodsixActorSheet extends ActorSheet {
   /**
    * Special handling of skills dropping.
    */
-  protected async _onDrop(event:DragEvent):Promise<boolean | any> {
+  public async _onDrop(event:DragEvent):Promise<boolean | any> {
     event.preventDefault();
 
     let data:any;
