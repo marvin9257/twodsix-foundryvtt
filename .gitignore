@@ -22,3 +22,4 @@ foundry/license.json
 foundry/foundry_dev_data
 sample_data/local/*
 !sample_data/local/.gitkeep
+src/token-action-hud-core/*
