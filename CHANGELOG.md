@@ -1,3 +1,31 @@
+## [7.4.3](https://github.com/xdy/twodsix-foundryvtt/compare/v7.4.2...v7.4.3) (2026-05-17)
+
+
+### Bug Fixes
+
+* Improve crew selection for trading. ([25fe818](https://github.com/xdy/twodsix-foundryvtt/commit/25fe818db21ba168b49edbe4b34b4a94d8e62818))
+
+## [7.4.2](https://github.com/xdy/twodsix-foundryvtt/compare/v7.4.1...v7.4.2) (2026-05-17)
+
+
+### Bug Fixes
+
+* Improve crew selection for trading. ([7955cbf](https://github.com/xdy/twodsix-foundryvtt/commit/7955cbfe7381c21968998cfc3ba7bd41c7704549))
+
+## [7.4.1](https://github.com/xdy/twodsix-foundryvtt/compare/v7.4.0...v7.4.1) (2026-05-17)
+
+
+### Bug Fixes
+
+* Improve crew selection for trading. ([eb946fe](https://github.com/xdy/twodsix-foundryvtt/commit/eb946fe6eb0dbabbdba12c2a9029abd2fe63a414))
+
+# [7.4.0](https://github.com/xdy/twodsix-foundryvtt/compare/v7.3.0...v7.4.0) (2026-05-17)
+
+
+### Features
+
+* add better token to token distance calculations and add CD Vehilces ([#1999](https://github.com/xdy/twodsix-foundryvtt/issues/1999)) ([0b94035](https://github.com/xdy/twodsix-foundryvtt/commit/0b940357042d6a7d7163e54dd081500fb96e87ce))
+
 # [7.3.0](https://github.com/xdy/twodsix-foundryvtt/compare/v7.2.2...v7.3.0) (2026-05-06)
 
 
