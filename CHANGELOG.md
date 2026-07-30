@@ -1,3 +1,10 @@
+## [7.5.3](https://github.com/xdy/twodsix-foundryvtt/compare/v7.5.2...v7.5.3) (2026-07-30)
+
+
+### Bug Fixes
+
+* overflow of ship actions in position box ([#2018](https://github.com/xdy/twodsix-foundryvtt/issues/2018)) ([a786deb](https://github.com/xdy/twodsix-foundryvtt/commit/a786debfd02fbacbc7c82eb21fa79f9ee9eb2e1e))
+
 ## [7.5.2](https://github.com/xdy/twodsix-foundryvtt/compare/v7.5.1...v7.5.2) (2026-06-20)
 
 
