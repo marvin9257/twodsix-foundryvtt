@@ -1,3 +1,10 @@
+# [7.6.0](https://github.com/xdy/twodsix-foundryvtt/compare/v7.5.4...v7.6.0) (2026-08-03)
+
+
+### Features
+
+* add partial ownership to ship finance calculations ([#2019](https://github.com/xdy/twodsix-foundryvtt/issues/2019)) ([43a1935](https://github.com/xdy/twodsix-foundryvtt/commit/43a19354f333e5e16eebb74c4f368a2537101a59))
+
 ## [7.5.4](https://github.com/xdy/twodsix-foundryvtt/compare/v7.5.3...v7.5.4) (2026-07-31)
 
 
