@@ -1,3 +1,10 @@
+## [7.6.1](https://github.com/xdy/twodsix-foundryvtt/compare/v7.6.0...v7.6.1) (2026-08-04)
+
+
+### Bug Fixes
+
+* Skill names changing when editing skill data ([#2020](https://github.com/xdy/twodsix-foundryvtt/issues/2020)) ([8b8cbac](https://github.com/xdy/twodsix-foundryvtt/commit/8b8cbacffc2c0a2441600ff1a0a77944bf2ecfb2))
+
 # [7.6.0](https://github.com/xdy/twodsix-foundryvtt/compare/v7.5.4...v7.6.0) (2026-08-03)
 
 
