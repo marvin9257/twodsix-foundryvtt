@@ -1,3 +1,10 @@
+## [7.6.2](https://github.com/xdy/twodsix-foundryvtt/compare/v7.6.1...v7.6.2) (2026-08-12)
+
+
+### Bug Fixes
+
+* bad context for certain hbs partials that list items ([#2021](https://github.com/xdy/twodsix-foundryvtt/issues/2021)) ([7c757b0](https://github.com/xdy/twodsix-foundryvtt/commit/7c757b0af5c8299caf1b9483046c1faa495275cb))
+
 ## [7.6.1](https://github.com/xdy/twodsix-foundryvtt/compare/v7.6.0...v7.6.1) (2026-08-04)
 
 
