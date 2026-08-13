@@ -1,3 +1,10 @@
+## [7.6.3](https://github.com/xdy/twodsix-foundryvtt/compare/v7.6.2...v7.6.3) (2026-08-13)
+
+
+### Bug Fixes
+
+* create canProcess Getter ([#2022](https://github.com/xdy/twodsix-foundryvtt/issues/2022)) ([cf53b2b](https://github.com/xdy/twodsix-foundryvtt/commit/cf53b2b43160ef955d5891583b36e32e85e0da4a))
+
 ## [7.6.2](https://github.com/xdy/twodsix-foundryvtt/compare/v7.6.1...v7.6.2) (2026-08-12)
 
 
